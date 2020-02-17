@@ -1,0 +1,7 @@
+com\orchestra\testCases\UI\TC_LoginTest_001.class
+com\orchestra\testCases\API\TC_GET_001.class
+com\orchestra\utilities\Reporting.class
+com\orchestra\pageObjects\LoginPage.class
+com\orchestra\utilities\ReadConfig.class
+com\orchestra\testCases\UI\BaseClass.class
+com\orchestra\testCases\API\TC_POST_002.class

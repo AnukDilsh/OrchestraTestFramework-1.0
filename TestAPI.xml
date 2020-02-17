@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="OrchestraTestFramework">
+    <listeners>
+        <listener class-name="com.orchestra.utilities.Reporting"/>
+    </listeners>
+
+    <test name="Orchestra Test">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="com.orchestra.testCases.API.TC_GET_001" />
+            <class name="com.orchestra.testCases.API.TC_POST_002" />
+        </classes>
+    </test>
+
+</suite>
